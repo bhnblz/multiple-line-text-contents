@@ -9,5 +9,10 @@ def write_lines():
     
             # If you will input more lines
             choices = input("Are there more lines? If so, enter Y for yes and N for no: ")
+            
             # If choices is N, break
+            if choices == "N":
+                break
+        my_file.close()
+
 # Call the function
