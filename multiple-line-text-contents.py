@@ -16,3 +16,4 @@ def write_lines():
         my_file.close()
 
 # Call the function
+write_lines()
